@@ -1,0 +1,122 @@
+body{
+	margin:0;
+	padding: 0;
+	text-align: center;
+	font-family: 'raleway', monospace;
+}
+.name{
+	position: relative;
+	top:100px;
+	color:#66BFBF;
+}
+.designation{
+	position:relative;
+	top:80px;
+	font-weight: normal;
+	font-family: 'raleway' monospace;
+}
+.cloud1{
+	position:absolute;
+	right:20%;
+	top:40px;
+}
+.cloud2{
+	position:absolute;
+	left:20%;
+	top:200px;
+}
+.mountain{
+	position:absolute;
+	top:250px;
+	left:50%;
+	transform:translate(-50%, 0);
+}
+.top-container{
+	line-height: 1.8;
+	font-family: raleway;
+	padding:10px;
+	bottom:20px;
+	background:#1b262c;
+	height:600px;
+	color:white;	
+}
+.profile{
+	background: #0f4c75;
+	height:280px;
+	padding-top:50px;
+}
+.profile h2{ font-size: 2em; }
+.profile p{ font-size: 1.2em; line-height: 0; color:white;}
+.skills{
+	background: #3282b8;
+	padding:60px;
+}
+.skills-header{
+	margin:0;
+	font-size: 3rem;
+	color: #66BFBF
+
+}
+.contact-me{
+	background: #bbe1fa;
+	padding:10px;
+	margin:0;
+}
+.bottom-container{
+	background: #bbe1fa;
+	padding:10px;
+}
+.python-icon{
+	width:25%;
+	margin-top: 30px;
+	display:inline-block;
+	float:left;
+	margin-right:100px;
+}
+.skill-web-dev{
+	text-align: left;
+	line-height: 2;
+	margin:50px auto 50px auto;
+	display: inline-block;
+}
+.skill-python{
+	text-align: left;
+	line-height: 2;
+	margin:50px auto 50px auto;
+	display: inline-block;
+	width:90%;
+}
+.web-dev-icons{
+	width:20%;
+	margin-top:40px;
+	float:right;
+	display:inline-block;
+}
+.footer-link{
+	margin: 0 10px;
+}
+.btn{
+	background: #3D94F6;
+	border-radius: 5px;
+	color: #FFFFFF;
+	font-family: raleway;
+	font-size: 25px;
+	font-weight: 100;
+	padding-top: 10px;
+	text-decoration: none;
+	display: inline-block;
+	cursor: pointer;
+	height:50px;
+	width: 100px
+}
+.profile h2{color: #66BFBF
+}
+.skill-python h3{color: #66BFBF;
+	font-size:1.6rem;
+	margin:10px 0 10px 0;
+}
+.skill-web-dev h3{
+	color: #66BFBF;
+	font-size:1.6rem;
+	margin:10px 0 10px 0;
+}
